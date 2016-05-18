@@ -1,13 +1,14 @@
 #include<stdio.h>
-#include<stlib.h>
+#include<stdlib.h>
 
-int main {
+int main (void)
+{
 int a,b,c;
-printf("Digite um número: ");
-scanf("%d", a);
-printf("Digite outro número: ");
-scanf("%d", b);
+printf("Digite um numero: ");
+scanf("%d", &a);
+printf("Digite outro numero: ");
+scanf("%d", &b);
 c = a+b;
-printf("O resultado é: ", c);
+printf("O resultado eh: %d\n", c);
 system("pause");
 }
